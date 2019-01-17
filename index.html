@@ -9,8 +9,8 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <a class="main-header-logo" href="index.html">
-                <img src="svg/logo.svg" width="111" height="24" alt='Логотип барбершопа "Бородинский"'>
+            <a class="main-header-logo">
+                <img src="svg/logo.svg" width="368" height="153" alt='Логотип барбершопа "Бородинский"'>
             </a>
             <ul class="site-navigation">
                 <li>
@@ -34,6 +34,123 @@
             </ul>
         </nav>
     </header>
+
+    <main class="container">
+        <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+
+        <section class="features">
+            <h2 class="visually-hidden">Преймущества</h2>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>Быстро</h3>
+                    <p>Мы делаем свою роботу быстро! Два часа пролетят незаметно и вы - счастливый обладательстильной стрижки-минутки</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Круто</h3>
+                    <p>Забудте как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Вов сяком случае внешне</p>
+                </li>
+                <li class="feature-item">
+                    <h3>Дорого</h3>
+                    <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же разве цена не дает определенный
+                        статус?
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="news">
+            <h2>Новости</h2>
+            <ul class="news-list">
+                <li class="news-item">
+                    <p>
+                        Нам наконец завезли Ягермастер! Теперь вы можете пропустить стаканчик во время стрижки
+                    </p>
+                    <time datetime="2019-01-16">16 января</time>
+                </li>
+                <li class="news-item">
+                    <p>
+                        В нашей команде пополнение, Борис "Бритва" Стигунец, обладатель множества титулов и наград пополнил наши ряды
+                    </p>
+                    <time datetime="2019-01-14">14 января</time>
+                </li>
+            </ul>
+            <a class="button" href="news.html">Все новости</a>
+        </section>
+
+        <section class="gallery">
+            <h2>Фотографии</h2>
+            <figure class="gallery-content">
+                <a href="#">
+                    <img src="img/studio.jpg" width="284" height="164" alt="Интерьер">
+                </a>
+            </figure>
+            <span class="button galery-button galery-button-back">Назад</span>
+            <span class="button galery-button galery-button-next">Вперед</span>
+        </section>
+
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <p>Барбершоп Бородинский
+                <br> Адрес: г. Винница, ул. Келецая, 112
+                <br> Телефон: 0638157537
+            </p>
+            <p>
+                Время работы
+                <br> пн-пт: 10:00 - 17:00
+                <br> сб-вс: 9:00 - 14:00
+            </p>
+
+            <a class="button" href="map.html">Как проехать</a>
+            <a class="button" href="contacts.html">Обратная связь</a>
+        </section>
+
+        <section class="appointment">
+            <h2>Записаться</h2>
+            <p class="appointment-info">Укажите желаемую дату и время и мі свяжемся с вами для подтверждения брони</p>
+            <!--Форма-->
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-contacts">
+            Барбершоп Бородинский
+            <br> Адрес: г. Винница, ул. Келецая, 112
+            <br> Телефон: 0638157537
+            <br>
+            <a href="map.html">Как проехать</a>
+        </p>
+        <div class="footer-social">
+            <b>Давайте дружить!</b>
+            <ul>
+                <li>
+                    <a href="#" class="social-button">Вконтакте</a>
+                </li>
+                <li>
+                    <a href="#" class="social-button">Фейсбук</a>
+                </li>
+                <li>
+                    <a href="#" class="social-button">Инстаграм</a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer-copyright">
+            <b>Разработано:</b>
+            <a class="button" href="#">Крещенко Ігор</a>
+        </p>
+    </footer>
+
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+        <!--Форма входа-->
+        <span class="modal-close">x</span>
+    </section>
+
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до на сдобраться</h2>
+        <span class="modal-close">x</span>
+    </section>
 </body>
 
 </html>
